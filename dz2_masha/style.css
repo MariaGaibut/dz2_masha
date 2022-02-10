@@ -1,0 +1,145 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 150%;
+    color: rgba(15,1,1,0.6);
+    background-color: #fff;
+}
+.fs{
+    background-color: rgba(242,206,218,0.3) ;
+}
+.container{
+    max-width: 1155px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* Header */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    margin-right: 172px;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 40px;
+    justify-content: space-between;
+}
+.fs__nav{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+/* Main text */
+.fs__main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.fs__article{
+    max-width: 60%;
+    flex: 1,0, 60%;
+    
+}
+.fs__text{
+    font-weight: bold;
+    font-size:14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color:black;
+    
+}
+.fs__title{
+    font-family: "Fredoka One", serif;
+    font-size: 57px;
+    line-height: 69px;
+    color: rgba(15,1,1,0.9);
+}
+.fs__ice-cream{
+    color: #D23166;
+}
+.fs__discription{
+    margin: 50px 0;
+    max-width: 523px;
+    font-family: "Hind Madurai";
+    font-weight:400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.fs__img{
+    max-width: 40%;
+    flex: 1,0, 40%;
+}
+.btn{
+    background-color: rgba(210,49,102,1);
+    width: 165px;
+    height: 49px;
+    border-radius: 5%;
+    color: white;
+    font-weight: bold;
+}
+/* Pros icons */
+.pros{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 150px;
+    
+}
+.pros_div{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    max-width: 250px;
+    max-height: 200px;
+}
+.pros_h3{
+    font-weight: 600;
+    font-size: 20px;
+    color:black
+}
+.pros_p{
+    font-size: 14px;
+    text-align: center;
+}
+/* Brown Sugar part */
+.bs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 100px;
+}
+.bs__article{
+    max-width: 40%;
+    flex: 1, 0, 40%;
+
+}
+.bs__img{
+    max-width: 60%;
+    flex: 1, 0, 60%;
+}
+.bs__title{
+    font-family: "Hind Madurai";
+    font-weight: 600px;
+    font-size: 44px;
+    line-height: 49px;
+    color: rgba(21,1,1,1)
+}
+.bs__text{
+    font-family: Roboto,  sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
